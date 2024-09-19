@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="codigo.css" />
+</head>
+
+<body>
+
+
+        <div class="navbar">
+                <div><img src="akatsuki.png"></div>
+                <h1> Akat Machine</h1>
+                <div><img src="akatsuki.png"></div>
+        </div>
+
+        <div class="pai">
+
+                <div class="lado_direito">
+
+
+
+                        <div class="opcao">
+                                <div class="conversao">
+                                        <div class="conversao2">
+                                                <h3><b>Converta o numero Decimal</b></h3><input id="ipt_numero" type="text"
+                                                        placeholder="Digite o valor decimal">
+                                                <button onclick="converter()">Converter</button>
+                                        </div>
+
+                                </div>
+                                <div class="opcao2">
+                                        <button  onclick="aparecer_decimal()"> Decimal</button>
+
+                                        <button  onclick="aparecer_octal()"> Octal</button>
+
+                                        <button  onclick="aparecer_hexa()">Hexadecimal</button>
+
+                                        <button  onclick="aparecer_bin()">Binário</button>
+
+                                </div>
+                        </div>
+                        <video width="640" height="480" controls>
+                                <source src="roclVSgarra.mp4" type="video/mp4">
+                        </video>
+                </div>
+
+                <div class="lado_esquerdo">
+                        <div class="conta">
+                                <div id="demo1"></div><br>
+                                <div id="demo2"></div><br>
+                                <div id="demo3"></div><br>
+                                <div id="demo4"></div>
+                        </div>
+                </div>
+        </div>
+        </dihref=""v>
+
+        <script>
+
+                function converter() {
+                        var numero = Number(ipt_numero.value)
+
+
+                                let octal = numero.toString(8);
+
+                                let hexadecimal = numero.toString(16);
+
+                                let binaria = numero.toString(2);
+
+                                console.log(numero);
+                                console.log(octal);
+                                console.log(hexadecimal);
+                                console.log(binaria);
+
+                                document.getElementById("demo1").innerHTML = ` Decimal <br><b>O valor convertido para Decimal é: <br>${numero}</b>`;
+                                document.getElementById("demo2").innerHTML = ` OCTAL <br><b>O valor convertido para Octal é: <br>${octal}</b> `;
+                                document.getElementById("demo3").innerHTML = ` HEXADECIMAL <br><b>O valor convertido para Hexadecimal é:<br>${hexadecimal}</b> `;
+                                document.getElementById("demo4").innerHTML = ` BINARIO <br><b>O valor convertido para Binarios é: <br>${binaria}</b> `;
+
+                }
+
+
+                function aparecer_bin() {
+                                        demo4.style.display = 'block'
+                                }
+
+                                function aparecer_hexa() {
+                                        demo3.style.display = 'block'
+                                }
+
+                                function aparecer_octal() {
+                                        demo2.style.display = 'block'
+                                }
+                                function aparecer_decimal() {
+                                        demo1.style.display = 'block'
+                                }
+
+                document.bgColor = "#F2652D";
+        </script>
+
+</body>
+
+</html>

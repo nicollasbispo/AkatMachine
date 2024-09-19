@@ -1,0 +1,191 @@
+body{
+    margin: 0PX;
+}
+img{
+  text-align: left; 
+  width: 100px; 
+  height: 80px;
+}
+
+h1{
+  margin-top: 50px; 
+  text-align: center; 
+  font-size: 90px;
+}
+button{
+    height: 30px;
+    background-color: #575757;
+    color: white;
+    margin: 5px; 
+    margin-top: 10px; 
+    width: 130px
+}
+button:hover{
+  background-color: black; 
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 150px;
+    width: auto;
+    background-color:#090745 ;
+    color: white;
+    border: black 2px solid;
+    align-items: center;
+
+}
+
+.pai{
+  display: flex ;
+
+}
+
+.conversao{
+  border-radius: 25px;
+ background-color: rgb(46, 48, 61);
+ color: rgb(255, 255, 255);
+
+}
+
+
+
+.opcao{
+align-items: center;
+text-align: center;
+margin-left: 5%;
+margin: 5px;
+width: 550px;
+height: 150px;
+background-color: black;
+display: flex;
+border-radius: 25px;
+}
+.conta{
+    background-color: black;
+    border-radius:25px ;
+    width: 500px;
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin: 5% 10% 10% 20%;
+}
+
+.video{
+    width: auto;
+    height: auto;
+}
+
+#demo1{
+  text-align: center;
+    margin-left: 40px ;
+    margin-top: 30px;
+    display: none;
+    background-color: #575757; 
+    border-radius: 5px; 
+    padding: 5px; 
+    color: rgb(255, 255, 255); 
+    width: 80%; 
+    height: 80px; 
+    font-weight: 500;
+}
+
+ #demo2{
+    text-align: center;
+    margin-left: 40px ;
+    margin-top: 30px;
+    display: none;
+    background-color: #575757; 
+    border-radius: 5px; 
+    padding: 5px; 
+    color: rgb(255, 255, 255); 
+    width: 80%; 
+    height: 80px; 
+    font-weight: 500;
+} 
+
+#demo3{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 40px ;
+    display: none;
+    background-color: #575757; 
+    border-radius: 5px; 
+    padding: 5px; 
+    color: rgb(255, 255, 255); 
+    width: 80%; 
+    height: 80px; 
+    font-weight: 500;
+} 
+
+#demo4{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 40px ;
+    display: none;
+    background-color: #575757; 
+    border-radius: 5px; 
+    padding: 5px; 
+    color: rgb(255, 255, 255); 
+    width: 80%; 
+    height: 80px; 
+    font-weight: 500;
+} 
+
+.troca_conversao{
+    width: auto;
+    height: auto;
+}
+
+.opcoes{
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    margin-left: 90px;
+    
+}
+.btOctal{
+
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    width: 200px;
+    height: 100px;
+    background-color: #575757;
+  }
+  .btHexa{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    width: 200px;
+    height: 100px;
+    background-color: #575757;
+  }
+
+  .btBina{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    width: 200px;
+    height: 100px;
+    background-color: #575757;
+  }
+
+  .btOctal:hover{
+    color:black;
+    
+  }
+  .btHexa:hover{
+    color:black;
+    
+  }
+
+  .btBina:hover{
+    color:black;
+    
+  }
+
+  
